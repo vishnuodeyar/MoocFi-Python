@@ -1,19 +1,15 @@
-def sum_of_positive_numbers(my_list):
-  sum = 0
+def even_numbers(my_list : list):
+  new_list = []
   for i in my_list:
-    sum += i
-  return sum
+    print(i)
+    if i % 2 == 0:
+      new_list.append(i)
+  return new_list
 
 my_list = []
-n = int(input("Enter the size of the list: "))
-
-
-print("\n")
-
-for i in range(0, n):
-  print(f"Enter the number at index {i}")
+for i in range(0,6):
   item = int(input())
   my_list.append(item)
+print(my_list)
 
-print(sum_of_positive_numbers(my_list))
-
+print(even_numbers(my_list))
