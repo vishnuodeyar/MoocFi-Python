@@ -1,4 +1,4 @@
-entrypoint = "MoocFi_python_part_4/sum_of_lists.py"
+entrypoint = "MoocFi_python_part_4/distinct_number.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
