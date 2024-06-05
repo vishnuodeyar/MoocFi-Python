@@ -1,4 +1,4 @@
-entrypoint = "MoocFi_python_part_4/all_the_longest_in_the_list.py"
+entrypoint = "MoocFi_python_part_4/integer_to_strings.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
