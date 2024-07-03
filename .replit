@@ -1,4 +1,4 @@
-entrypoint = "MoocFi_python_part_4/no_shouting_allowed.py"
+entrypoint = "MoocFi_python_part_4/neighbours_in_the_list.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
