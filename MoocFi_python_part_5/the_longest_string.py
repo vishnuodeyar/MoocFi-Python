@@ -7,4 +7,10 @@ def longest_string(string_list: list):
       longest_string = a
   return longest_string
 
-print(longest_string(["a", "ab", "abc", "abcd", "abcde"]))
+print("Enter the list: ")
+my_list = []
+for i in range(0,6):
+  item = input()
+  my_list.append(item)
+
+print(longest_string(my_list))
