@@ -7,4 +7,4 @@ def count_matching_elements(my_matirx: list, element: int):
   return b
 
 matrix = [[12,3,4], [34,56,3], [3,34,3]]
-print(count_matching_elements(matrix, 3))
+print(count_matching_elements(matrix, 12))

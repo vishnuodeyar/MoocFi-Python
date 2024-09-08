@@ -1,4 +1,4 @@
-entrypoint = "MoocFi_python_part_5/suduko_check_row.py"
+entrypoint = "MoocFi_python_part_5/number_of_matching_elements.py"
 modules = ["python-3.10:v18-20230807-322e88b"]
 
 [nix]
